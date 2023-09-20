@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QAI Labs | Grundlagen der Programmierung mit Python</title>
+
+    <!--
+    - favicon
+  -->
+    <link rel="shortcut icon" href="../../../../assets/images/my-avatar.png" type="image/x-icon">
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="../../../../assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lalezar&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- #MAIN -->
+
+    <main>
+
+        <!-- #SIDEBAR -->
+
+        <aside class="sidebar" data-sidebar>
+
+            <div class="sidebar-info">
+
+                <figure class="avatar-box">
+                    <img src="../../../../assets/images/my-avatar.png" alt="QAI Labs" width="80">
+                </figure>
+
+                <div class="info-content">
+                    <h1 class="name" title="QAI Labs">QAI Labs</h1>
+
+                    <p class="title">Computer Science Researcher</p>
+                </div>
+
+                <button class="info_more-btn" data-sidebar-btn>
+                    <span>Kontaktdaten</span>
+
+                    <ion-icon name="chevron-down"></ion-icon>
+                </button>
+
+            </div>
+
+            <div class="sidebar-info_more">
+
+                <div class="separator"></div>
+
+                <ul class="contacts-list">
+
+                    <li class="contact-item">
+
+                        <div class="icon-box">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Email</p>
+
+                            <a href="mailto:orabe.mhd@gmail.com" class="contact-link">orabe.mhd@gmail.com</a>
+                        </div>
+
+                    </li>
+
+                    <li class="contact-item">
+
+                        <div class="icon-box">
+                            <ion-icon name="phone-portrait-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Phone</p>
+
+                            <a href="tel:+4917661942616" class="contact-link">+49 176 61942616</a>
+                        </div>
+
+                    </li>
+
+                    <li class="contact-item">
+
+                        <div class="icon-box">
+                            <ion-icon name="location-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Location</p>
+
+                            <address>Berlin</address>
+                        </div>
+
+                    </li>
+
+                </ul>
+
+                <div class="separator"></div>
+
+                <ul class="social-list">
+                    <li class="social-item">
+                        <a target="_blank" rel="noopener noreferrer" href="https://instagram.com/mohammed_orabe"
+                            class="social-link">
+                            <i class="fa-brands fa-instagram"></i> </a>
+                    </li>
+
+                    <li class="social-item telegram">
+                        <a target="_blank" rel="noopener noreferrer" href="https://t.me/infor_mathe_k"
+                            class="social-link telegram">
+                            <i class="fa-brands fa-telegram"></i>
+                        </a>
+                    </li>
+
+
+                    <li class="social-item">
+                        <a target="_blank" rel="noopener noreferrer"
+                            href="https://api.whatsapp.com/send?phone=17661942616" class="social-link">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                    </li>
+
+
+                    <li class="social-item">
+                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/orabe"
+                            class="social-link">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </aside>
+
+        <!-- #main-content -->
+
+        <div class="main-content">
+
+            <!-- #NAVBAR -->
+
+            <nav class="navbar">
+
+                <ul class="navbar-list">
+
+                    <li class="navbar-item">
+                        <a href="../../../../index.html">
+                            <button class="navbar-link" data-nav-link>Profil</button>
+                        </a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="../../../../laufende_kurse.html">
+                            <button class="navbar-link active" data-nav-link>Laufende Kurse</button>
+                        </a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="../../../../Kurs_archiv.html">
+                            <button class="navbar-link" data-nav-link>Vergangene Kurse</button>
+                        </a>
+                    </li>
+                </ul>
+
+            </nav>
+
+
+
+            <!-- #PROFIL -->
+
+            <article class="profil  active" data-page="profil">
+
+                <header>
+                    <h2 class="h2 article-title">Grundlagen der<br>Programmierung mit Python [#2]</h2>
+                </header>
+
+                <section class="profil-text">
+
+                    <ul class="filter-list">
+
+                        <li class="filter-item">
+                            <a href="./py_2_generell.html">
+                                <button data-filter-btn>Generell</button>
+                            </a>
+                        </li>
+
+                        <li class="filter-item">
+                            <a href="./py_2_merkmale.html">
+                                <button class="active" data-filter-btn>Merkmale</button>
+                            </a>
+                        </li>
+
+                        <li class="filter-item">
+                            <a href="./py_2_fazit.html">
+                                <button data-filter-btn>Fazit</button>
+                            </a>
+                        </li>
+
+                        <li class="filter-item">
+                            <a href="py_2_anmeldung.html">
+                                <button data-filter-btn>Anmelden</button>
+                            </a>
+                        </li>
+
+                    </ul>
+
+                    <div class="filter-select-box">
+
+                        <button class="filter-select" data-select>
+
+                            <div class="select-value" data-selecct-value>Kategorie auswählen</div>
+
+                            <div class="select-icon">
+                                <ion-icon name="chevron-down"></ion-icon>
+                            </div>
+
+                        </button>
+
+                        <ul class="select-list">
+
+                            <li class="select-item">
+                                <button data-select-item>Studium</button>
+                            </li>
+
+                            <li class="select-item">
+                                <button data-select-item>Schule</button>
+                            </li>
+
+                            <li class="select-item">
+                                <button data-select-item>Alle Niveaus</button>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                    <!-- <h3 class="h3 service-title">Kursinformationen</h3> -->
+
+                    <!-- Timeline -->
+                    <section class="timeline">
+
+                        <div class="title-wrapper">
+                            <div class="icon-box">
+                                <ion-icon name="book-outline"></ion-icon>
+                            </div>
+
+                            <h3 class="h3">Was diesen Kurs auszeichnet</h3>
+                        </div>
+
+                        <ol class="timeline-list">
+
+                            <li class="timeline-item">
+
+                                <h4 class="h4 timeline-item-title">Zwei Lehrkräfte</h4>
+
+                                <!-- <span>...</span> -->
+
+                                <p class="timeline-text">
+                                    Du wirst von mir und einer
+                                    weiteren Masterstudenten, die ebenfalls über umfangreiche Erfahrung in diesem
+                                    Bereich
+                                    verfügt, Gemeinsam betreuet und unterrichtet.
+                                </p>
+
+                            </li>
+
+                            <li class="timeline-item">
+
+                                <h4 class="h4 timeline-item-title">Die erste Sitzung geht auf mich</h4>
+
+                                <p class="timeline-text">
+                                    Die erste Sitzung ist kostenfrei. Nachdem deiner Anmenldung, bist du herzlich
+                                    eingeladen, zur ersten
+                                    Sitzung zu kommen, um den Inhalt und Ablauf des Kurses kennen zu lernen.
+                                </p>
+
+                            </li>
+
+                            <li class="timeline-item">
+
+                                <h4 class="h4 timeline-item-title">30 Minuten für Abwesende</h4>
+
+                                <p class="timeline-text">
+                                    Zusätzlich biete ich eine wöchentliche, kostenfreie Wiederholung in 30 Minuten vor
+                                    Kursbeginn an. Diese ist besonders
+                                    hilfreich für Teilnehmer, die vorherige Unterrichten verpasst haben und sich noch
+                                    einmal
+                                    mit dem Material vertraut machen
+                                    möchten.
+                                </p>
+
+                            </li>
+
+                            <li class="timeline-item">
+
+                                <h4 class="h4 timeline-item-title">24/7 Support</h4>
+
+                                <p class="timeline-text">
+                                    Ich bin jederzeit für dich da und beantworte deine Fragen in unserer offiziellen
+                                    Telegram Gruppe.
+
+                                </p>
+
+                            </li>
+
+                            <li class="timeline-item">
+
+                                <h4 class="h4 timeline-item-title">Kurze Wiederholung</h4>
+
+                                <p class="timeline-text">
+                                    Jede Sitzung beginnt mit einer kurzen Wiederholung des vorherigen Lerninhalts.
+                                </p>
+
+                            </li>
+
+                            <li class="timeline-item">
+
+                                <h4 class="h4 timeline-item-title">Quiz</h4>
+
+                                <p class="timeline-text">
+                                    Nach jeder Sitzung erhältst du ein Multiple-Choice-Quiz, das du leicht über Telegram
+                                    durchführen kannst. In der
+                                    kommenden Woche werden wir gemeinsam alle Fragen durchgehen.
+
+                                </p>
+
+                            </li>
+
+                            <li class="timeline-item">
+
+                                <h4 class="h4 timeline-item-title">Projektportfolio</h4>
+
+                                <p class="timeline-text">
+                                    Statt Zertifikaten, die vielleicht nicht viel sagen, wirst du an einem realen
+                                    Mini-Projekt arbeiten, um das Gelernte
+                                    anzuwenden. Gemeinsam werden wir dann dein
+                                    Kursprojekt auf GitHub hochladen, was
+                                    persönlich zeigt, was du gelernt und gemacht hast, und künftige Arbeitgeber
+                                    beeindrucken
+                                    wird.
+                                </p>
+
+                            </li>
+
+                            <li class="timeline-item">
+
+                                <h4 class="h4 timeline-item-title">LinkedIn Empfehlungen</h4>
+
+                                <p class="timeline-text">
+                                    Sammle wichtige Empfehlungen von uns, deinen Lehrkräften, auf LinkedIn, um deine
+                                    beruflichen Qualifikationen und
+                                    Fähigkeiten zu betonen.
+                                </p>
+
+                            </li>
+
+                            <li class="timeline-item">
+
+                                <h4 class="h4 timeline-item-title">Fortgeschrittenenkurse</h4>
+
+                                <p class="timeline-text">
+                                    Dieser Kurs legt das Fundament für kommende anspruchsvolle Aufgaben, die ich in den
+                                    Fortgeschrittenenkursen behandele.
+                                </p>
+
+                            </li>
+
+                            <li class="timeline-item">
+
+                                <h4 class="h4 timeline-item-title">Snacks für alle 🍬🍭🍦</h4>
+
+                                <p class="timeline-text">
+                                    Ich sorge für Snacks und hin und wieder gibt es sogar Eis. Alles, was du mitbringen
+                                    musst, ist deinen Laptop und ein
+                                    breites Lächeln!
+                                </p>
+
+                            </li>
+
+                        </ol>
+
+                    </section>
+                </section>
+
+            </article>
+
+
+        </div>
+
+    </main>
+
+
+
+
+
+
+    <!-- custom js link -->
+    <script src="../../../../assets/js/script.js"></script>
+
+    <!-- ionicon link -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+</body>
+
+</html>
