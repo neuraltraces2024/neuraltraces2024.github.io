@@ -623,8 +623,22 @@ main {
   margin: auto;
 }
 
+.service-img-box {
+  margin-bottom: 10px;
+}
+
+.service-img-box img {
+  margin: auto;
+  border-radius: 14px;
+}
+
 .service-content-box {
   text-align: center;
+}
+
+.service-content-box-img {
+  text-align: center;
+  margin-top: 13px;
 }
 
 .service-item-title {
@@ -1649,6 +1663,14 @@ textarea.form-input::-webkit-resizer {
 
   /* service */
 
+  .service-item-img {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 30px;
+  }
+
   .service-item {
     display: flex;
     justify-content: flex-start;
@@ -1662,8 +1684,18 @@ textarea.form-input::-webkit-resizer {
     margin-top: 5px;
   }
 
+  .service-img-box {
+    margin-bottom: 0;
+    margin-top: 5px;
+  }
+
   .service-content-box {
     text-align: left;
+  }
+
+  .service-content-box-img {
+    text-align: left;
+    margin-top: 13px;
   }
 
   /* testimonials */

@@ -5,25 +5,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Neural Traces | Neural Traces</title>
+    <title>Neural Traces | Committees</title>
 
     <!--
     - favicon
   -->
-    <link rel="shortcut icon" href="./assets/images/my-avatar.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../assets/images/my-avatar.png" type="image/x-icon">
 
     <!--
     - custom css link
   -->
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
-
     <!--
     - google font link
   -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lalezar&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -39,11 +39,11 @@
             <div class="sidebar-info">
 
                 <figure class="avatar-box">
-                    <img src="./assets/images/my-avatar.png" alt="Neural Traces" width="80">
+                    <img src="../assets/images/my-avatar.png" alt="Neural Traces" width="80">
                 </figure>
 
                 <div class="info-content">
-                    <h1 class="name" title="Neural Traces 2024">Neural Traces 2024</h1>
+                    <h1 class="name" title="Neural Traces 2024">Neural Traces </br> 2024</h1>
 
                     <p class="title" style="text-align: center;">
                         Workshop on M/EEG Methods </br>
@@ -97,18 +97,18 @@
                     </li>
 
                     <!-- <li class="contact-item">
-
-                        <div class="icon-box">
-                            <ion-icon name="phone-portrait-outline"></ion-icon>
-                        </div>
-
-                        <div class="contact-info">
-                            <p class="contact-title">Phone</p>
-
-                            <a href="tel:+4903031470140" class="contact-link">+49 (0) 30 314 70140</a>
-                        </div>
-
-                    </li> -->
+        
+                                <div class="icon-box">
+                                    <ion-icon name="phone-portrait-outline"></ion-icon>
+                                </div>
+        
+                                <div class="contact-info">
+                                    <p class="contact-title">Phone</p>
+        
+                                    <a href="tel:+4903031470140" class="contact-link">+49 (0) 30 314 70140</a>
+                                </div>
+        
+                            </li> -->
 
                     <li class="contact-item">
 
@@ -178,20 +178,26 @@
                 <ul class="navbar-list">
 
                     <li class="navbar-item">
-                        <a href="index.html">
+                        <a href="../index.html">
                             <button class="navbar-link" data-nav-link>Home</button>
                         </a>
                     </li>
 
                     <li class="navbar-item">
-                        <a href="program.html">
+                        <a href="../program.html">
                             <button class="navbar-link" data-nav-link>Program</button>
                         </a>
                     </li>
 
                     <li class="navbar-item">
-                        <a href="program_committees.html">
-                            <button class="navbar-link" data-nav-link>Program Committees</button>
+                        <a href="../speakers/speakers_eeg_methods.html">
+                            <button class="navbar-link active" data-nav-link>Speakers</button>
+                        </a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="../committees/program_committees.html">
+                            <button class="navbar-link" data-nav-link>Committees</button>
                         </a>
                     </li>
                 </ul>
@@ -199,53 +205,113 @@
             </nav>
 
 
-            <!-- #KURSE -->
 
-            <article class="kurse active" data-page="kurse">
+            <!-- #PROFIL -->
+
+            <article class="profil  active" data-page="profil">
 
                 <header>
-                    <h2 class="h2 article-title">Lorem ipsum</h2>
+                    <h2 class="h2 article-title">Speakers</h2>
                 </header>
 
-                <section class="kurse-posts">
+                <section class="profil-text">
 
-                    <ul class="kurse-posts-list">
+                    <ul class="filter-list">
 
-                        <li class="kurse-post-item">
-                            <a href="#">
+                        <li class="filter-item">
+                            <a href="./speakers_eeg_methods.html">
+                                <button data-filter-btn>M/EEG Methods</button>
+                            </a>
+                        </li>
 
-                                <figure class="kurse-banner-box">
-                                    <img src="./assets/images/archieve_1.PNG" alt="Best fonts every designer"
-                                        loading="lazy">
-                                </figure>
+                        <li class="filter-item">
+                            <a href="./speakers_movement_disorders.html">
+                                <button data-filter-btn>Movement disorders</button>
+                            </a>
+                        </li>
 
-                                <div class="kurse-content">
+                        <li class="filter-item">
+                            <a href="./speakers_epilepsy.html">
+                                <button data-filter-btn>Epilepsy</button>
+                            </a>
+                        </li>
 
-                                    <div class="kurse-meta">
-                                        <p class="kurse-category">Lorem ipsum</p>
+                        <li class="filter-item">
+                            <a href="./speakers_aging_and_dementia.html">
+                                <button data-filter-btn>Aging and dementia</button>
+                            </a>
+                        </li>
 
-                                        <!-- <span class="dot"></span> -->
+                        <li class="filter-item">
+                            <a href="./speakers_psychiatry.html">
+                                <button data-filter-btn class="active">Psychiatry</button>
+                            </a>
+                        </li>
 
-                                        <!-- <time datetime="2022-02-23">Fab 23, 2022</time> -->
-                                    </div>
-
-                                    <h3 class="h3 kurse-item-title">Lorem ipsum dolor sit amet</h3>
-
-                                    <p class="kurse-text">
-                                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-                                        tempor invidunt ut labore et dolore
-                                        magna
-                                        <span style="color: var(--orange-yellow-crayola)">(Lorem ipsum dolor)
-                                        </span>
-                                    </p>
-
-                                </div>
-
+                        <li class="filter-item">
+                            <a href="./speakers_uncategorized.html">
+                                <button data-filter-btn>Uncategorized</button>
                             </a>
                         </li>
 
                     </ul>
 
+                    <!-- <div class="filter-select-box">
+
+                        <button class="filter-select" data-select>
+
+                            <div class="select-value" data-selecct-value>Kategorie auswählen</div>
+
+                            <div class="select-icon">
+                                <ion-icon name="chevron-down"></ion-icon>
+                            </div>
+
+                        </button>
+
+                        <ul class="select-list">
+
+                            <li class="select-item">
+                                <button data-select-item>Studium</button>
+                            </li>
+
+                            <li class="select-item">
+                                <button data-select-item>Schule</button>
+                            </li>
+
+                            <li class="select-item">
+                                <button data-select-item>Alle Niveaus</button>
+                            </li>
+                        </ul>
+
+                    </div> -->
+
+                    <!-- service -->
+                    <!-- icons source: https://www.svgrepo.com -->
+                    <section class="service">
+
+                        <!-- <h3 class="h3 service-title">Kursmerkmale im Überblick</h3> -->
+
+
+                        <ul class="service-list">
+
+                            <a class="service-item" href="https://www.tu.berlin/uniml/about/head-of-group">
+
+                                <div class="service-img-box">
+                                    <img src="../assets/images/avatar-0.jpg" alt="Soekadar" width="150">
+                                </div>
+
+                                <div class="service-content-box">
+                                    <h4 class="h4 service-item-title">Surjo Soekadar</h4>
+
+                                    <p class="service-item-text">
+                                        TBC
+                                    </p>
+                                </div>
+                            </a>
+
+                        </ul>
+
+                    </section>
                 </section>
 
             </article>
@@ -261,7 +327,7 @@
 
 
     <!-- custom js link -->
-    <script src="./assets/js/script.js"></script>
+    <script src="../assets/js/script.js"></script>
 
     <!-- ionicon link -->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
