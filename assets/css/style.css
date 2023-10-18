@@ -344,7 +344,7 @@ main {
 
 .sidebar {
   margin-bottom: 15px;
-  max-height: 112px;
+  max-height: 130px;
   overflow: hidden;
   transition: var(--transition-2);
 }
@@ -510,7 +510,7 @@ main {
   left: 0;
   width: 100%;
   margin-bottom: 15px;
-  background: hsla(240, 1%, 17%, 0.75);
+  background: var(--bg-gradient-jet);
   backdrop-filter: blur(10px);
   border: 1px solid var(--jet);
   border-radius: 12px 12px 12px 12px;
@@ -1653,7 +1653,12 @@ textarea.form-input::-webkit-resizer {
    */
 
   .navbar {
-    border-radius: 20px 20px 0 0;
+    border-radius: 12px 12px 12px 12px;
+    width: 86%;
+    margin-left: 7%;
+    margin-bottom: 4%;
+    /* justify-content: center;
+    align-items: center; */
   }
 
   .navbar-list {
@@ -2075,13 +2080,13 @@ textarea.form-input::-webkit-resizer {
   .navbar {
     position: absolute;
     bottom: auto;
-    top: 0;
+    top: 20px;
     left: auto;
-    right: 0;
+    right: 30px;
     width: max-content;
-    border-radius: 0 20px;
+    border-radius: 12px 12px 12px 12px;
     padding: 0 20px;
-    box-shadow: none;
+    box-shadow: var(--shadow-2)
   }
 
   .navbar-list {
