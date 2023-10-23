@@ -632,6 +632,18 @@ main {
   border-radius: 14px;
 }
 
+.profile {
+  margin-bottom: 10px;
+  border-radius: 20px;
+  background: var(--bg-gradient-onyx)
+}
+
+.profile img {
+  border-radius: 20px;
+  margin: auto;
+  background: var(--bg-gradient-onyx)
+}
+
 .service-content-box {
   text-align: center;
 }
@@ -1715,6 +1727,13 @@ textarea.form-input::-webkit-resizer {
   .service-img-box {
     margin-bottom: 0;
     margin-top: 5px;
+  }
+
+  .profile {
+    margin-bottom: 0;
+    margin-top: 5px;
+    border-radius: 20px;
+    background: var(--bg-gradient-onyx)
   }
 
   .service-content-box {
