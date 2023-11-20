@@ -15,22 +15,25 @@
     <!--
     - custom css link
   -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
-
-
     <!--
     - google font link
   -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lalezar&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
     <!-- #MAIN -->
 
+    <a href="index.html" target="_blank" rel="noopener noreferrer">
+    <img src="./assets/images/40BCXaeS_4x_combined6.png" alt="Neural Traces 2024 Workshop banner, " width="100%" >
+	</a>
+	
     <main>
 
         <!-- #SIDEBAR -->
@@ -38,17 +41,17 @@
         <aside class="sidebar" data-sidebar>
 
             <div class="sidebar-info">
-
+                <!--
                 <figure class="avatar-box">
-                    <img src="./assets/images/loglo_margarita.png" alt="Neural Traces" width="80">
+                    <img src="./assets/images/logo1.jpg" alt="Neural Traces 2024 logo" width="80">
                 </figure>
+                -->
 
                 <div class="info-content">
-                    <h1 class="name" title="Neural Traces 2024">Neural Traces </br> 2024</h1>
-
-                    <p class="title" style="text-align: center;">
-                        Workshop on M/EEG Methods </br>
-                        and Clinical Applications
+                    <p class="sidebar-title" style="text-align: left;">
+      				Advanced M/EEG Methods and</br>
+                    Clinical Applications</br>
+                    Workshop
                     </p>
                 </div>
 
@@ -66,9 +69,8 @@
 
                 <ul class="contacts-list">
 
-
+<!--
                     <li class="contact-item">
-
 
                         <div class="icon-box">
                             <ion-icon name="person-circle-outline"></ion-icon>
@@ -81,7 +83,7 @@
                         </div>
 
                     </li>
-
+-->
                     <li class="contact-item">
 
 
@@ -90,7 +92,7 @@
                         </div>
 
                         <div class="contact-info">
-                            <p class="contact-title">Email</p>
+                            <p class="contact-title">Contact</p>
 
                             <a href="mailto:connect@neuraltraces2024.org"
                                 class="contact-link">connect@neuraltraces2024.org</a>
@@ -111,6 +113,20 @@
                         </div>
 
                     </li> -->
+                    
+                   <li class="contact-item">
+
+                        <div class="icon-box">
+                            <ion-icon name="calendar-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Dates</p>
+
+                            <p class="contact-link">10-12th April, 2024</p>
+                        </div>
+
+                    </li>
 
                     <li class="contact-item">
 
@@ -122,14 +138,16 @@
                             <p class="contact-title">Location</p>
 
                             <!-- <address>Berlin</address> -->
-                            <a href="https://www.google.com/maps/place/Abbestraße+12,+10587+Berlin/@52.51678,13.321012,17z/data=!4m6!3m5!1s0x47a8511bc53ec3f5:0xb5bb42231c7901fe!8m2!3d52.5166302!4d13.320604!16s%2Fg%2F11cppk9xvn?hl=en&entry=ttu"
-                                class="contact-link">Berlin</a>
+                            <a href="./location.html"
+                                class="contact-link">PTB, Berlin</a>
                         </div>
 
                     </li>
+                
 
                 </ul>
 
+<!--
                 <div class="separator"></div>
 
                 <ul class="social-list">
@@ -144,7 +162,6 @@
                         <a target="_blank" rel="noopener noreferrer" href="https://braindata.charite.de/en/"
                             class="social-link">
                             <i class="fa-brands fa-firefox"></i>
-                            <!-- <ion-icon name="globe-outline"></ion-icon> -->
                         </a>
                     </li>
 
@@ -157,23 +174,15 @@
                     </li>
 
 
-                    <!-- <li class="social-item">
-                                <a target="_blank" rel="noopener noreferrer" href="https://github.com/orabe"
-                                    class="social-link">
-                                    <i class="fa-brands fa-github"></i>
-                                    <i class="fa-brands fa-internet-explorer"></i>
-                                </a>
-                            </li> -->
-
                 </ul>
 
             </div>
-
+-->
         </aside>
 
         <!-- #main-content -->
 
-        <div class="main-content">
+       <div class="main-content">
 
             <!-- #NAVBAR -->
 
@@ -182,172 +191,345 @@
                 <ul class="navbar-list">
 
                     <li class="navbar-item">
-                        <a href="./index.html">
-                            <button class="navbar-link" data-nav-link>Home</button>
+                        <a href="index.html">
+                            <button class="navbar-link" data-nav-link>About</button>
                         </a>
                     </li>
 
                     <li class="navbar-item">
-                        <a href="./program.html">
+                        <a href="program.html">
                             <button class="navbar-link active" data-nav-link>Program</button>
                         </a>
                     </li>
 
+
                     <li class="navbar-item">
-                        <a href="./speakers.html">
-                            <button class="navbar-link" data-nav-link>Speakers</button>
+                        <a href="submission.html">
+                            <button class="navbar-link" data-nav-link>Abstract Submission</button>
                         </a>
                     </li>
 
                     <li class="navbar-item">
-                        <a href="#">
-                            <button class="navbar-link" data-nav-link>Abstracts</button>
-                        </a>
-                    </li>
-
-                    <li class="navbar-item">
-                        <a href="#">
+                        <a href="registration.html">
                             <button class="navbar-link" data-nav-link>Registration</button>
                         </a>
                     </li>
+                    
+                    <li class="navbar-item">
+                        <a href="location.html">
+                            <button class="navbar-link" data-nav-link>Venue</button>
+                        </a>
+                    </li>
+                    
+                    <li class="navbar-item">
+                        <a href="committees/program_committee.html">
+                            <button class="navbar-link" data-nav-link>Team</button>
+                        </a>
+                    </li>
+
                 </ul>
 
             </nav>
 
 
-            <!-- #KURSE -->
 
-            <article class="kurse active" data-page="kurse">
 
+            <!-- #PROFIL -->
+
+            <article class="profil active" data-page="profil">
+            
+				<br>
                 <header>
-                    <h2 class="h2 article-title">Program</h2>
+                    <h2 class="h2 article-title"></h2>
                 </header>
+                <br>
+                
+               <section class="profil-text">
+                    <p>
+                	The workshop will cover advanced data analysis methods and their clinical applications in equal measure. 
+                	Methodological sessions will cover signal processing and time
+            		series modeling, forward and inverse modeling, machine learning and multivariate modeling, 
+            		as well as contributions to open science. 
+            		Clinical sessions will cover the application of these M/EEG methods across various clinical domains,
+                    including movement disorders, aging and dementias, psychiatric and developmental disorders, and epilepsy.
+                	Sessions will include invited as well as contributed talks. In addition, a poster session will be held.
+                    </p>
 
-                <section class="profil-text">
-                    <section class="profil-text">
-                        <p>
-                            The program consists of the following two main themes and their corresponding topics:
-                        </p>
-
-                    </section>
 
                 </section>
+                
+                 <section class="profil-text">
 
-                <section class="kurse-posts">
+                    <h4 class="h4 service-title">Schedule</h4>
 
-                    <!-- <header>
-                        <h2 class="h3 article-title">M/EEG Methods</h2>
-                    </header> -->
+					The final program and schedule is still under construction and will be released in due course.
+                
+                </section>   
+                       
+	
 
-                    <section class="profil-text">
-                        <h2>M/EEG Methods</h2> <br>
-                        <ul>
-                            <li>• Signal processing and time series modeling</li>
-                            <li>• Forward and inverse modeling</li>
-                            <li>• Machine learning and multivariate modeling</li>
-                            <li>• Open source software</li>
-                        </ul>
+                <section class="profil-text">
 
+                    <!-- <ul class="filter-list">
 
-                    </section>
-
-
-                    <!-- <header>
-                        <h2 class="h3 article-title">Clinical Applications</h2>
-                    </header> -->
-
-                    <section class="profil-text">
-                        <h2>Clinical Applications</h2> <br>
-
-                        <ul>
-                            <li>• Movement disorders</li>
-                            <li>• Aging, dementia</li>
-                            <li>• Psychiatric and developmental disorders</li>
-                            <li>• Epilepsy, sleep, and consciousness disorders</li>
-                        </ul>
-
-
-                    </section>
-
-
-                    <header>
-                        <h2 class="h3 article-title">Schedule</h2>
-                    </header>
-
-                    <section class="profil-text">
-                        <p>To be announced</p>
-                        <!-- <ul>
-                            <li>• Bus M45, Otto-Suhr-Allee bus stop</li>
-                            <li>• 245, Marchstraße bus stop</li>
-                            <li>• Bus 101, Cauerstraße/Guerickestraße bus stop</li>
-                            <li>• U-Bahn (underground): Ernst-Reuter-Platz Station</li>
-                            <li>• S-Bahn (commuter train): Zoologischer Garten or Tiergarten Stations</li>
-                        </ul> -->
-
-
-                    </section>
-
-
-                    <!-- <ul class="kurse-posts-list">
-
-                        <li class="kurse-post-item">
-                            <a href="./program/eeg_methods.html">
-
-                                <figure class="kurse-banner-box">
-                                    <img src="assets/images/eeg_methods.jpg" alt="eeg methods image" loading="lazy">
-                                </figure>
-
-                                <div class="kurse-content">
-
-                                    <div class="kurse-meta">
-                                        <p class="kurse-category">4 Sessions</p>
-
-
-                                    </div>
-
-                                    <h3 class="h3 kurse-item-title">M/EEG Methods</h3>
-
-                                    <p class="kurse-text">
-                                        Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet
-                                        Lorem ipsum dolor sit amet Lorem ipsum dolor sit.
-                                    </p>
-
-                                </div>
-
+                        <li class="filter-item">
+                            <a href="./speakers_eeg_methods.html">
+                                <button data-filter-btn>M/EEG Methods</button>
                             </a>
                         </li>
 
-                        
+                        <li class="filter-item">
+                            <a href="./speakers_movement_disorders.html">
+                                <button data-filter-btn>Movement disorders</button>
+                            </a>
+                        </li>
 
-                        <li class="kurse-post-item">
-                            <a href="./program/clinical_methods.html">
+                        <li class="filter-item">
+                            <a href="./speakers_epilepsy.html">
+                                <button data-filter-btn>Epilepsy</button>
+                            </a>
+                        </li>
 
-                                <figure class="kurse-banner-box">
-                                    <img src="assets/images/clinical.png" alt="clinical image" loading="lazy">
-                                </figure>
+                        <li class="filter-item">
+                            <a href="./speakers_aging_and_dementia.html">
+                                <button data-filter-btn>Aging and dementia</button>
+                            </a>
+                        </li>
 
-                                <div class="kurse-content">
-
-                                    <div class="kurse-meta">
-                                        <p class="kurse-category">4 Sessions</p>
-
-                                    </div>
-
-                                    <h3 class="h3 kurse-item-title">Clinical Applications</h3>
-
-                                    <p class="kurse-text">
-                                        Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit
-                                        amet.
-   
-                                    </p>
-
-                                </div>
-
+                        <li class="filter-item">
+                            <a href="./speakers_psychiatry.html">
+                                <button data-filter-btn class="active">Psychiatric disorders</button>
                             </a>
                         </li>
 
                     </ul> -->
 
+
+                    <section class="service">
+                    
+
+                    <h4 class="h4 service-title">Confirmed Invited Speakers</h4>
+
+					The following speakers have been tentatively confirmed.
+                 
+
+                        <ul class="service-list">
+
+                            <a class="service-item">
+                                <div class="profile">
+                                    <img src="./assets/images/profile3.png" alt="Alain de Cheveigné" width="150">
+                                </div>
+                                <div class="service-content-box">
+                                    <h4 class="h4 service-item-title">Alain de Cheveigné</h4>
+                                    <p class="service-item-text">Title: tba</p>
+                                    <p class="service-item-text">Abstract: tba</p>
+                                    <p class="service-item-text">Bio: tba</p>
+                                </div>
+                            </a>
+
+                            <a class="service-item" href="https://www.tu.berlin/uniml/about/head-of-group">
+
+                                <div class="profile">
+                                    <img src="./assets/images/stefan.png" alt="haufe" width="150">
+                                </div>
+
+                                <div class="service-content-box">
+                                    <h4 class="h4 service-item-title">Stefan Haufe</h4>
+
+                                    <p class="service-item-text">Title: tba</p>
+                                    <p class="service-item-text">Abstract: tba</p>
+                                    <p class="service-item-text">
+                                	Bio: Head of the UNIML research group at Technische Universität Berlin.
+                                    </p>
+                                </div>
+                            </a>
+							
+							<!--
+                            <a class="service-item">
+                                <div class="profile">
+                                    <img src="./assets/images/profile3.png" alt="Tin Jurhar" width="150">
+                                </div>
+                                <div class="service-content-box">
+                                    <h4 class="h4 service-item-title">Tin Jurhar</h4>
+                                    <p class="service-item-text"></p>
+                                </div>
+                            </a>
+                            -->
+
+                            <a class="service-item">
+                                <div class="profile">
+                                    <img src="./assets/images/profile3.png" alt="Roxanne Lofredi" width="150">
+                                </div>
+                                <div class="service-content-box">
+                                    <h4 class="h4 service-item-title">Roxanne Lofredi</h4>
+                                    <p class="service-item-text">Title: tba</p>
+                                    <p class="service-item-text">Abstract: tba</p>
+                                    <p class="service-item-text">Bio: tba</p>
+                                </div>
+                            </a>
+
+                            <a class="service-item">
+                                <div class="profile">
+                                    <img src="./assets/images/profile3.png" alt="Laura Marzetti" width="150">
+                                </div>
+                                <div class="service-content-box">
+                                    <h4 class="h4 service-item-title">Laura Marzetti</h4>
+                                    <p class="service-item-text">Title: tba</p>
+                                    <p class="service-item-text">Abstract: tba</p>
+                                    <p class="service-item-text">Bio: Head of the MAMBO research group,
+                                        Associate Professor of Physics at Università degli Studi „Gabriele d’Annunzio“ (Ud'A).</p>
+                                </div>
+                            </a>
+
+                            <a class="service-item">
+                                <div class="profile">
+                                    <img src="./assets/images/profile3.png" alt="Guiomar Niso" width="150">
+                                </div>
+                                <div class="service-content-box">
+                                    <h4 class="h4 service-item-title">Guiomar Niso</h4>
+                                    <p class="service-item-text">Title: tba</p>
+                                    <p class="service-item-text">Abstract: tba</p>
+                                    <p class="service-item-text">Bio: tba</p>
+                                </div>
+                            </a>
+
+                            <a class="service-item">
+                                <div class="profile">
+                                    <img src="./assets/images/profile3.png" alt="Guido Nolte" width="150">
+                                </div>
+                                <div class="service-content-box">
+                                    <h4 class="h4 service-item-title">Guido Nolte</h4>
+                                    <p class="service-item-text">Title: tba</p>
+                                    <p class="service-item-text">Abstract: tba</p>
+                                    <p class="service-item-text">Bio: tba</p>
+                                </div>
+                            </a>
+
+                            <a class="service-item">
+                                <div class="profile">
+                                    <img src="./assets/images/profile3.png" alt="Ashwini Oswal" width="150">
+                                </div>
+                                <div class="service-content-box">
+                                    <h4 class="h4 service-item-title">Ashwini Oswal</h4>
+                                    <p class="service-item-text">Title: tba</p>
+                                    <p class="service-item-text">Abstract: tba</p>
+                                    <p class="service-item-text">Bio: tba</p>
+                                </div>
+                            </a>
+
+							<!--
+                            <a class="service-item">
+                                <div class="profile">
+                                    <img src="./assets/images/profile3.png" alt="Franziska Pellegrini" width="150">
+                                </div>
+                                <div class="service-content-box">
+                                    <h4 class="h4 service-item-title">Franziska Pellegrini</h4>
+                                    <p class="service-item-text"></p>
+                                </div>
+                            </a>
+                            -->
+
+                            <a class="service-item">
+                                <div class="profile">
+                                    <img src="./assets/images/profile3.png" alt="Kamalini Ranasinghe" width="150">
+                                </div>
+                                <div class="service-content-box">
+                                    <h4 class="h4 service-item-title">Kamalini Ranasinghe</h4>
+                                    <p class="service-item-text">Title: tba</p>
+                                    <p class="service-item-text">Abstract: tba</p>
+                                    <p class="service-item-text">Bio: tba</p>
+                                </div>
+                            </a>
+
+                            <a class="service-item">
+                                <div class="profile">
+                                    <img src="./assets/images/profile3.png" alt="Myriam Sander" width="150">
+                                </div>
+                                <div class="service-content-box">
+                                    <h4 class="h4 service-item-title">Myriam Sander</h4>
+                                    <p class="service-item-text">Title: tba</p>
+                                    <p class="service-item-text">Abstract: tba</p>
+                                    <p class="service-item-text">Bio: tba</p>
+                                </div>
+                            </a>
+
+                            <a class="service-item">
+                                <div class="profile">
+                                    <img src="./assets/images/profile3.png" alt="Tilmann Sander-Thömmes " width="150">
+                                </div>
+                                <div class="service-content-box">
+                                    <h4 class="h4 service-item-title">Tilmann Sander-Thömmes</h4>
+                                    <p class="service-item-text">Title: tba</p>
+                                    <p class="service-item-text">Abstract: tba</p>
+                                    <p class="service-item-text">Bio: tba</p>
+                                </div>
+                            </a>
+
+                            <a class="service-item">
+                                <div class="profile">
+                                    <img src="./assets/images/profile3.png" alt="Robin Tibor Schirrmeister"
+                                        width="150">
+                                </div>
+                                <div class="service-content-box">
+                                    <h4 class="h4 service-item-title">Robin Tibor Schirrmeister</h4>
+                                    <p class="service-item-text">Title: tba</p>
+                                    <p class="service-item-text">Abstract: tba</p>
+                                    <p class="service-item-text">Bio: tba</p>
+                                </div>
+                            </a>
+
+                            <a class="service-item">
+                                <div class="profile">
+                                    <img src="./assets/images/profile3.png" alt="Marieke van Vugt" width="150">
+                                </div>
+                                <div class="service-content-box">
+                                    <h4 class="h4 service-item-title">Marieke van Vugt</h4>
+                                    <p class="service-item-text">Title: tba</p>
+                                    <p class="service-item-text">Abstract: tba</p>
+                                    <p class="service-item-text">Bio: tba</p>
+                                </div>
+                            </a>
+
+                            <a class="service-item">
+                                <div class="profile">
+                                    <img src="./assets/images/profile3.png" alt="Peter Uhlhaas" width="150">
+                                </div>
+                                <div class="service-content-box">
+                                    <h4 class="h4 service-item-title">Peter Uhlhaas</h4>
+                                    <p class="service-item-text">Title: tba</p>
+                                    <p class="service-item-text">Abstract: tba</p>
+                                    <p class="service-item-text">Bio: tba</p>
+                                </div>
+                            </a>
+
+                            <a class="service-item">
+                                <div class="profile">
+                                    <img src="./assets/images/profile3.png" alt="Umesh Vivekananda" width="150">
+                                </div>
+                                <div class="service-content-box">
+                                    <h4 class="h4 service-item-title">Umesh Vivekananda</h4>
+                                    <p class="service-item-text">Title: tba</p>
+                                    <p class="service-item-text">Abstract: tba</p>
+                                    <p class="service-item-text">Bio: tba</p>
+                                </div>
+                            </a>
+
+                            <a class="service-item">
+                                <div class="profile">
+                                    <img src="./assets/images/profile3.png" alt="Adina Wagner" width="150">
+                                </div>
+                                <div class="service-content-box">
+                                    <h4 class="h4 service-item-title">Adina Wagner</h4>
+                                    <p class="service-item-text">Title: tba</p>
+                                    <p class="service-item-text">Abstract: tba</p>
+                                    <p class="service-item-text">Bio: tba</p>
+                                </div>
+                            </a>
+
+
+                        </ul>
+
+                    </section>
                 </section>
 
             </article>
