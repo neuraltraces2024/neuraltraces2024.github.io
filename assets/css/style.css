@@ -547,8 +547,40 @@ main {
   color: var(--neural-traces-pink);
 }
 
+.text-link {
+  color: var(--light-gray);
+  /* font-size: var(--fs-4); */
+  padding: 0px 0px;
+  transition: color var(--transition-1);
+  /* font-weight: bold; */
+}
+
+.text-link:hover,
+.text-link:focus {
+  color: var(--light-gray-70);
+}
+
+.text-link.active {
+  color: var(--neural-traces-pink);
+}
 
 
+.text-link-pink {
+  color: var(--neural-traces-pink);
+  /* font-size: var(--fs-4); */
+  padding: 0px 0px;
+  transition: color var(--transition-1);
+  /* font-weight: bold; */
+}
+
+.text-link-pink:hover,
+.text-link-pink:focus {
+  color: var(--light-gray-70);
+}
+
+.text-link-pink.active {
+  color: var(--neural-traces-pink);
+}
 
 
 /*-----------------------------------*\
