@@ -44,7 +44,8 @@
 
   /* solid */
 
-  --jet: #ea0606;
+  /* --jet: #ea0606;  use as a reference (testing only) */
+  --jet: #000000;
   --onyx: #000000;
   --eerie-black-1: #000000;
   --eerie-black-2: #000000;
