@@ -149,7 +149,7 @@ textarea {
 }
 
 ::selection {
-  background: var(--neural-traces-pink);
+  background: var(--white-1);
   color: var(--smoky-black);
 }
 
