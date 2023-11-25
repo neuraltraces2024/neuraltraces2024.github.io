@@ -1703,7 +1703,7 @@ textarea.form-input::-webkit-resizer {
   .navbar {
     border-radius: 0px 0px 0px 0px;
     width: 86%;
-    margin-left: 7%;
+    margin-left: auto;
     margin-bottom: 4%;
     /* justify-content: center;
     align-items: center; */
@@ -2134,6 +2134,7 @@ textarea.form-input::-webkit-resizer {
    */
 
   .navbar {
+    margin-left: 3%;
     position: absolute;
     bottom: auto;
     top: 0px;
@@ -2142,7 +2143,7 @@ textarea.form-input::-webkit-resizer {
     width: max-content;
     border-radius: 0px 0px 0px 0px;
     padding: 0 0px;
-    box-shadow: var(--shadow-2)
+    box-shadow: var(--shadow-2);
   }
 
   .navbar-list {
