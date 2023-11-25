@@ -19,7 +19,7 @@
 
   /**
    * colors #00c7b7, e9657e
-   */  
+   */
 
   /* gradient */
 
@@ -44,7 +44,7 @@
 
   /* solid */
 
-  --jet: #000000;
+  --jet: #ea0606;
   --onyx: #000000;
   --eerie-black-1: #000000;
   --eerie-black-2: #000000;
@@ -2229,7 +2229,7 @@ textarea.form-input::-webkit-resizer {
    */
 
   main {
-    max-width: 1200px;
+    max-width: 1500px;
     margin-inline: auto;
     display: flex;
     justify-content: center;
