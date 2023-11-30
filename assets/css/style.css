@@ -887,14 +887,14 @@ main {
  * #clients 
  */
 
-.clients {
+/* .clients {
   margin-bottom: 15px;
-}
+} */
 
 .clients-list {
   display: flex;
   justify-content: flex-start;
-  align-items: flex-start;
+  align-items: center;
   gap: 15px;
   margin: 0 -15px;
   padding: 25px;
@@ -913,12 +913,12 @@ main {
 
 .clients-item img {
   width: 100%;
-  filter: grayscale(1);
-  transition: var(--transition-1);
+  /* filter: grayscale(1);
+  transition: var(--transition-1); */
 }
 
 .clients-item img:hover {
-  filter: grayscale(0);
+  /* filter: grayscale(0); */
 }
 
 
@@ -1516,8 +1516,28 @@ textarea.form-input::-webkit-resizer {
 }
 
 
+/*-----------------------------------*\
+  #Fix of the list
+\*-----------------------------------*/
 
+ul.proper-list > li {
+  all: revert-layer;
+}
 
+ul.proper-list {
+  padding-inline-start: 40px;
+}
+
+.banner-image {
+  max-width: 1500px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.white-strip {
+  background-color: white;
+}
 
 /*-----------------------------------*\
   #RESPONSIVE
