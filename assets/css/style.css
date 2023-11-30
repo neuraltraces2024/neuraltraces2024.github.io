@@ -1516,8 +1516,12 @@ textarea.form-input::-webkit-resizer {
 }
 
 
-
-
+.banner-image {
+  max-width: 1500px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /*-----------------------------------*\
   #RESPONSIVE
