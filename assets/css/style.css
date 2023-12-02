@@ -893,7 +893,7 @@ main {
 
 .clients-list {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   gap: 15px;
   margin: 0 -15px;
@@ -907,12 +907,10 @@ main {
 }
 
 .clients-item {
-  min-width: 50%;
   scroll-snap-align: start;
 }
 
 .clients-item img {
-  width: 100%;
   /* filter: grayscale(1);
   transition: var(--transition-1); */
 }
@@ -1554,7 +1552,6 @@ ul.proper-list {
    */
 
   .clients-item {
-    min-width: calc(33.33% - 10px);
   }
 
 
@@ -1877,14 +1874,13 @@ ul.proper-list {
   /* clients */
 
   .clients-list {
-    gap: 50px;
-    margin: 0 -30px;
-    padding: 45px;
-    scroll-padding-inline: 45px;
+    gap: 10px;
+    margin: 0 0px;
+    padding: 10px;
+    scroll-padding-inline: 10px;
   }
 
   .clients-item {
-    min-width: calc(33.33% - 35px);
   }
 
 
@@ -2197,7 +2193,6 @@ ul.proper-list {
   /* clients */
 
   .clients-item {
-    min-width: calc(25% - 38px);
   }
 
 
