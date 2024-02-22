@@ -693,6 +693,8 @@ main {
 
 .service-item-title {
   margin-bottom: 7px;
+  text-transform: none
+
 }
 
 .service-item-text {
